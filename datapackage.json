@@ -1,0 +1,132 @@
+{
+  "name": "1603",
+  "profile": "data-package-catalog",
+  "resources": [
+    {
+      "name": "1603_16_659_0",
+      "path": "1603/16/659/0/1603_16_659_0.no1.tm.hxl.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "#item+conceptum+numerordinatio",
+            "type": "string"
+          },
+          {
+            "name": "#item+conceptum+codicem",
+            "type": "string"
+          },
+          {
+            "name": "#item+rem+i_qcc+is_zxxx+rdf_a_obo_bfo29+rdf_p_obo_bfo124_s5001+rdf_s_u2200_s5000",
+            "type": "string"
+          },
+          {
+            "name": "#item+rem+i_eng+is_latn+rdf_p_skos_preflabel_s5000+ix_alt0",
+            "type": "string"
+          },
+          {
+            "name": "#meta+rem+i_qcc+is_zxxx+ix_ERROR+country+code+v_iso3166p1a2",
+            "type": "string"
+          },
+          {
+            "name": "#meta+rem+i_qcc+is_zxxx+ix_ERROR+country+name",
+            "type": "string"
+          },
+          {
+            "name": "#item+rem+i_eng+is_latn+rdf_p_skos_preflabel_s5000+ix_alt1",
+            "type": "string"
+          },
+          {
+            "name": "#item+rem+i_eng+is_latn+rdf_p_skos_preflabel_s5000+ix_alt2",
+            "type": "string"
+          },
+          {
+            "name": "#item+rem+i_qcc+is_zxxx+rdf_p_p_p577_s1603+rdf_t_xsd_datetime",
+            "type": "string"
+          },
+          {
+            "name": "#item+rem+i_qcc+is_zxxx+rdf_p_p_p813_s1603+rdf_t_xsd_datetime",
+            "type": "string"
+          },
+          {
+            "name": "#item+rem+i_qcc+is_zxxx+rdf_p_p_p2699_s1603+rdf_t_xsd_datetime",
+            "type": "string"
+          }
+        ]
+      },
+      "stats": {
+        "fields": 11,
+        "rows": 1
+      }
+    },
+    {
+      "name": "1603_16_659_1",
+      "path": "1603/16/659/1/1603_16_659_1.no1.tm.hxl.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "#item+conceptum+numerordinatio",
+            "type": "string"
+          },
+          {
+            "name": "#item+conceptum+codicem",
+            "type": "string"
+          },
+          {
+            "name": "#item+rem+i_qcc+is_zxxx+rdf_a_obo_bfo29+rdf_p_obo_bfo124_s5001+rdf_s_u2200_s5000",
+            "type": "string"
+          },
+          {
+            "name": "#item+rem+i_qcc+is_zxxx+rdf_a_obo_bfo29+rdf_p_obo_bfo124_s5002+rdf_p_obo_bfo171_s5000+rdf_s_u2200_s5001",
+            "type": "string"
+          },
+          {
+            "name": "#item+rem+i_eng+is_latn+rdf_p_skos_preflabel_s5001+ix_alt0",
+            "type": "string"
+          },
+          {
+            "name": "#meta+rem+i_qcc+is_zxxx+ix_ERROR+adm1+code+v_pcode",
+            "type": "string"
+          },
+          {
+            "name": "#meta+rem+i_qcc+is_zxxx+ix_ERROR+adm1+name",
+            "type": "string"
+          },
+          {
+            "name": "#item+rem+i_eng+is_latn+rdf_p_skos_preflabel_s5001+ix_alt1",
+            "type": "string"
+          },
+          {
+            "name": "#item+rem+i_eng+is_latn+rdf_p_skos_preflabel_s5001+ix_alt2",
+            "type": "string"
+          },
+          {
+            "name": "#item+rem+i_eng+is_latn+rdf_p_skos_preflabel_s5000",
+            "type": "string"
+          },
+          {
+            "name": "#meta+rem+i_qcc+is_zxxx+ix_ERROR+country+code+v_iso3166p1a2",
+            "type": "string"
+          },
+          {
+            "name": "#item+rem+i_qcc+is_zxxx+rdf_p_p_p577_s1603+rdf_t_xsd_datetime",
+            "type": "string"
+          },
+          {
+            "name": "#item+rem+i_qcc+is_zxxx+rdf_p_p_p813_s1603+rdf_t_xsd_datetime",
+            "type": "string"
+          },
+          {
+            "name": "#item+rem+i_qcc+is_zxxx+rdf_p_p_p2699_s1603+rdf_t_xsd_datetime",
+            "type": "string"
+          }
+        ]
+      },
+      "stats": {
+        "fields": 14,
+        "rows": 14
+      }
+    }
+  ]
+}
