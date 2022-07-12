@@ -3,6 +3,67 @@
   "profile": "tabular-data-package",
   "resources": [
     {
+      "name": "1603_16_659_1.no1.bcp47.csv",
+      "path": "1603_16_659_1.no1.bcp47.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "qcc-Zxxx-r-sU2200-s1603-snop",
+            "type": "string"
+          },
+          {
+            "name": "qcc-Zxxx-r-aMDCIII-alatcodicem-anop",
+            "type": "string",
+            "constraints": {
+              "unique": true
+            }
+          },
+          {
+            "name": "qcc-Zxxx-r-sU2200-s5000-snop",
+            "type": "string"
+          },
+          {
+            "name": "qcc-Zxxx-r-sU2200-s5001-snop",
+            "type": "string"
+          },
+          {
+            "name": "eng-Latn-r-pSKOS-pprefLabel-ps5001",
+            "type": "string"
+          },
+          {
+            "name": "qcc-Zxxx-r-pWDATA-pq7200235-ps5001-x-wdataq7200235",
+            "type": "string"
+          },
+          {
+            "name": "eng-Latn-r-pSKOS-pprefLabel-ps5000",
+            "type": "string"
+          },
+          {
+            "name": "qcc-Zxxx-r-pP-pp297-ps5000-x-p297",
+            "type": "string"
+          },
+          {
+            "name": "qcc-Zxxx-r-pP-pp577-ps1603",
+            "type": "string"
+          },
+          {
+            "name": "qcc-Zxxx-r-pP-pp813-ps1603",
+            "type": "string"
+          },
+          {
+            "name": "qcc-Zxxx-r-pP-pp2699-ps1603",
+            "type": "string"
+          }
+        ],
+        "primaryKey": "qcc-Zxxx-r-aMDCIII-alatcodicem-anop"
+      },
+      "stats": {
+        "fields": 11,
+        "rows": 14
+      }
+    },
+    {
       "name": "1603_16_659_1.no1.tm.hxl.csv",
       "path": "1603_16_659_1.no1.tm.hxl.csv",
       "profile": "tabular-data-resource",
@@ -10,11 +71,17 @@
         "fields": [
           {
             "name": "#item+conceptum+numerordinatio",
-            "type": "string"
+            "type": "string",
+            "constraints": {
+              "unique": true
+            }
           },
           {
             "name": "#item+conceptum+codicem",
-            "type": "string"
+            "type": "string",
+            "constraints": {
+              "unique": true
+            }
           },
           {
             "name": "#item+rem+i_qcc+is_zxxx+rdf_a_obo_bfo29+rdf_p_obo_bfo124_s5001+rdf_s_u2200_s5000",
@@ -25,11 +92,11 @@
             "type": "string"
           },
           {
-            "name": "#item+rem+i_eng+is_latn+rdf_p_skos_preflabel_s5001+ix_alt0",
+            "name": "#item+rem+i_eng+is_latn+rdf_p_skos_preflabel_s5001",
             "type": "string"
           },
           {
-            "name": "#meta+rem+i_qcc+is_zxxx+ix_ERROR+adm1+code+v_pcode",
+            "name": "#item+rem+i_qcc+is_zxxx+ix_wdataq7200235+rdf_p_wdata_q7200235_s5001",
             "type": "string"
           },
           {
@@ -49,7 +116,7 @@
             "type": "string"
           },
           {
-            "name": "#meta+rem+i_qcc+is_zxxx+ix_ERROR+country+code+v_iso3166p1a2",
+            "name": "#item+rem+i_qcc+is_zxxx+ix_p297+rdf_p_p_p297_s5000",
             "type": "string"
           },
           {
@@ -64,7 +131,8 @@
             "name": "#item+rem+i_qcc+is_zxxx+rdf_p_p_p2699_s1603+rdf_t_xsd_datetime",
             "type": "string"
           }
-        ]
+        ],
+        "primaryKey": "#item+conceptum+codicem"
       },
       "stats": {
         "fields": 14,

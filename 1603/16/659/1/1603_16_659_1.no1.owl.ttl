@@ -4,6 +4,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <http://www.wikidata.org/wiki/Special:EntityData/> .
 @prefix p: <http://www.wikidata.org/prop/> .
 
 <urn:mdciii:1603:16()>
@@ -28,83 +29,97 @@
     obo:BFO_0000124 <urn:mcdiii:1603:16:659:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:659:1:1" ;
-    skos:prefLabel "Christ Church Nichola Town"@eng-Latn .
+    skos:prefLabel "Christ Church Nichola Town"@eng-Latn ;
+    wdata:q7200235 "KN01" .
 
 <urn:mdciii:1603:16:659:1:10>
     obo:BFO_0000124 <urn:mcdiii:1603:16:659:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:659:1:10" ;
-    skos:prefLabel "Saint Paul Charlestown"@eng-Latn .
+    skos:prefLabel "Saint Paul Charlestown"@eng-Latn ;
+    wdata:q7200235 "KN10" .
 
 <urn:mdciii:1603:16:659:1:11>
     obo:BFO_0000124 <urn:mcdiii:1603:16:659:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:659:1:11" ;
-    skos:prefLabel "Saint Peter Basseterre"@eng-Latn .
+    skos:prefLabel "Saint Peter Basseterre"@eng-Latn ;
+    wdata:q7200235 "KN11" .
 
 <urn:mdciii:1603:16:659:1:12>
     obo:BFO_0000124 <urn:mcdiii:1603:16:659:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:659:1:12" ;
-    skos:prefLabel "Saint Thomas Lowland"@eng-Latn .
+    skos:prefLabel "Saint Thomas Lowland"@eng-Latn ;
+    wdata:q7200235 "KN12" .
 
 <urn:mdciii:1603:16:659:1:13>
     obo:BFO_0000124 <urn:mcdiii:1603:16:659:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:659:1:13" ;
-    skos:prefLabel "Saint Thomas Middle Island"@eng-Latn .
+    skos:prefLabel "Saint Thomas Middle Island"@eng-Latn ;
+    wdata:q7200235 "KN13" .
 
 <urn:mdciii:1603:16:659:1:14>
     obo:BFO_0000124 <urn:mcdiii:1603:16:659:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:659:1:14" ;
-    skos:prefLabel "Trinity Palmetto Point"@eng-Latn .
+    skos:prefLabel "Trinity Palmetto Point"@eng-Latn ;
+    wdata:q7200235 "KN14" .
 
 <urn:mdciii:1603:16:659:1:2>
     obo:BFO_0000124 <urn:mcdiii:1603:16:659:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:659:1:2" ;
-    skos:prefLabel "Saint Anne Sandy Point"@eng-Latn .
+    skos:prefLabel "Saint Anne Sandy Point"@eng-Latn ;
+    wdata:q7200235 "KN02" .
 
 <urn:mdciii:1603:16:659:1:3>
     obo:BFO_0000124 <urn:mcdiii:1603:16:659:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:659:1:3" ;
-    skos:prefLabel "Saint George Basseterre"@eng-Latn .
+    skos:prefLabel "Saint George Basseterre"@eng-Latn ;
+    wdata:q7200235 "KN03" .
 
 <urn:mdciii:1603:16:659:1:4>
     obo:BFO_0000124 <urn:mcdiii:1603:16:659:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:659:1:4" ;
-    skos:prefLabel "Saint George Gingerland"@eng-Latn .
+    skos:prefLabel "Saint George Gingerland"@eng-Latn ;
+    wdata:q7200235 "KN04" .
 
 <urn:mdciii:1603:16:659:1:5>
     obo:BFO_0000124 <urn:mcdiii:1603:16:659:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:659:1:5" ;
-    skos:prefLabel "Saint James Windward"@eng-Latn .
+    skos:prefLabel "Saint James Windward"@eng-Latn ;
+    wdata:q7200235 "KN05" .
 
 <urn:mdciii:1603:16:659:1:6>
     obo:BFO_0000124 <urn:mcdiii:1603:16:659:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:659:1:6" ;
-    skos:prefLabel "Saint John Capisterre"@eng-Latn .
+    skos:prefLabel "Saint John Capisterre"@eng-Latn ;
+    wdata:q7200235 "KN06" .
 
 <urn:mdciii:1603:16:659:1:7>
     obo:BFO_0000124 <urn:mcdiii:1603:16:659:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:659:1:7" ;
-    skos:prefLabel "Saint John Figtree"@eng-Latn .
+    skos:prefLabel "Saint John Figtree"@eng-Latn ;
+    wdata:q7200235 "KN07" .
 
 <urn:mdciii:1603:16:659:1:8>
     obo:BFO_0000124 <urn:mcdiii:1603:16:659:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:659:1:8" ;
-    skos:prefLabel "Saint Mary Cayon"@eng-Latn .
+    skos:prefLabel "Saint Mary Cayon"@eng-Latn ;
+    wdata:q7200235 "KN08" .
 
 <urn:mdciii:1603:16:659:1:9>
     obo:BFO_0000124 <urn:mcdiii:1603:16:659:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:659:1:9" ;
-    skos:prefLabel "Saint Paul Capisterre"@eng-Latn .
+    skos:prefLabel "Saint Paul Capisterre"@eng-Latn ;
+    wdata:q7200235 "KN09" .
 

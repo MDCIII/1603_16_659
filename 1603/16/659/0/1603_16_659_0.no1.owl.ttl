@@ -18,5 +18,6 @@
 <urn:mdciii:1603:16:659:0>
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:659:0" ;
-    skos:prefLabel "Saint Kitts and Nevis"@eng-Latn .
+    skos:prefLabel "Saint Kitts and Nevis"@eng-Latn ;
+    p:p297 "KN" .
 
