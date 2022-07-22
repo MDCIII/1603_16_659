@@ -1,23 +1,27 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix obo: <http://purl.obolibrary.org/obo/> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix p: <http://www.wikidata.org/prop/> .
-
-<urn:mdciii:1603:16()>
-    a skos:ConceptScheme ;
-    rdfs:label "(1603:16)" .
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 <urn:mdciii:1603:16:659()>
     a skos:Collection ;
     rdfs:label "(1603:16:659)" ;
-    skos:inScheme <urn:mdciii:1603:16()> .
+    skos:inScheme <urn:mdciii:1603:16()> ;
+.
 
 <urn:mdciii:1603:16:659:0>
-    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    a
+        obo:BFO_0000029 ,
+        owl:Thing ,
+        skos:Concept ;
     rdfs:label "1603:16:659:0" ;
     skos:prefLabel "Saint Kitts and Nevis"@eng-Latn ;
-    p:p297 "KN" .
+    p:p297 "KN" ;
+.
+
+<urn:mdciii:1603:16()>
+    a skos:ConceptScheme ;
+    rdfs:label "(1603:16)" ;
+.
 
