@@ -1,7 +1,6 @@
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-PREFIX wdata: <http://www.wikidata.org/wiki/Special:EntityData/>
 
 <urn:mdciii:1603:16:659()>
     a skos:Collection ;
@@ -20,7 +19,6 @@ PREFIX wdata: <http://www.wikidata.org/wiki/Special:EntityData/>
         skos:Concept ;
     rdfs:label "1603:16:659:1:1" ;
     skos:prefLabel "Christ Church Nichola Town"@eng-Latn ;
-    wdata:q7200235 "KN01" ;
 .
 
 <urn:mdciii:1603:16()>
@@ -53,7 +51,6 @@ PREFIX wdata: <http://www.wikidata.org/wiki/Special:EntityData/>
         skos:Concept ;
     rdfs:label "1603:16:659:1:10" ;
     skos:prefLabel "Saint Paul Charlestown"@eng-Latn ;
-    wdata:q7200235 "KN10" ;
 .
 
 <urn:mdciii:1603:16:659:1:11>
@@ -62,7 +59,6 @@ PREFIX wdata: <http://www.wikidata.org/wiki/Special:EntityData/>
         skos:Concept ;
     rdfs:label "1603:16:659:1:11" ;
     skos:prefLabel "Saint Peter Basseterre"@eng-Latn ;
-    wdata:q7200235 "KN11" ;
 .
 
 <urn:mdciii:1603:16:659:1:12>
@@ -71,7 +67,6 @@ PREFIX wdata: <http://www.wikidata.org/wiki/Special:EntityData/>
         skos:Concept ;
     rdfs:label "1603:16:659:1:12" ;
     skos:prefLabel "Saint Thomas Lowland"@eng-Latn ;
-    wdata:q7200235 "KN12" ;
 .
 
 <urn:mdciii:1603:16:659:1:13>
@@ -80,7 +75,6 @@ PREFIX wdata: <http://www.wikidata.org/wiki/Special:EntityData/>
         skos:Concept ;
     rdfs:label "1603:16:659:1:13" ;
     skos:prefLabel "Saint Thomas Middle Island"@eng-Latn ;
-    wdata:q7200235 "KN13" ;
 .
 
 <urn:mdciii:1603:16:659:1:14>
@@ -89,7 +83,6 @@ PREFIX wdata: <http://www.wikidata.org/wiki/Special:EntityData/>
         skos:Concept ;
     rdfs:label "1603:16:659:1:14" ;
     skos:prefLabel "Trinity Palmetto Point"@eng-Latn ;
-    wdata:q7200235 "KN14" ;
 .
 
 <urn:mdciii:1603:16:659:1:2>
@@ -98,7 +91,6 @@ PREFIX wdata: <http://www.wikidata.org/wiki/Special:EntityData/>
         skos:Concept ;
     rdfs:label "1603:16:659:1:2" ;
     skos:prefLabel "Saint Anne Sandy Point"@eng-Latn ;
-    wdata:q7200235 "KN02" ;
 .
 
 <urn:mdciii:1603:16:659:1:3>
@@ -107,7 +99,6 @@ PREFIX wdata: <http://www.wikidata.org/wiki/Special:EntityData/>
         skos:Concept ;
     rdfs:label "1603:16:659:1:3" ;
     skos:prefLabel "Saint George Basseterre"@eng-Latn ;
-    wdata:q7200235 "KN03" ;
 .
 
 <urn:mdciii:1603:16:659:1:4>
@@ -116,7 +107,6 @@ PREFIX wdata: <http://www.wikidata.org/wiki/Special:EntityData/>
         skos:Concept ;
     rdfs:label "1603:16:659:1:4" ;
     skos:prefLabel "Saint George Gingerland"@eng-Latn ;
-    wdata:q7200235 "KN04" ;
 .
 
 <urn:mdciii:1603:16:659:1:5>
@@ -125,7 +115,6 @@ PREFIX wdata: <http://www.wikidata.org/wiki/Special:EntityData/>
         skos:Concept ;
     rdfs:label "1603:16:659:1:5" ;
     skos:prefLabel "Saint James Windward"@eng-Latn ;
-    wdata:q7200235 "KN05" ;
 .
 
 <urn:mdciii:1603:16:659:1:6>
@@ -134,7 +123,6 @@ PREFIX wdata: <http://www.wikidata.org/wiki/Special:EntityData/>
         skos:Concept ;
     rdfs:label "1603:16:659:1:6" ;
     skos:prefLabel "Saint John Capisterre"@eng-Latn ;
-    wdata:q7200235 "KN06" ;
 .
 
 <urn:mdciii:1603:16:659:1:7>
@@ -143,7 +131,6 @@ PREFIX wdata: <http://www.wikidata.org/wiki/Special:EntityData/>
         skos:Concept ;
     rdfs:label "1603:16:659:1:7" ;
     skos:prefLabel "Saint John Figtree"@eng-Latn ;
-    wdata:q7200235 "KN07" ;
 .
 
 <urn:mdciii:1603:16:659:1:8>
@@ -152,7 +139,6 @@ PREFIX wdata: <http://www.wikidata.org/wiki/Special:EntityData/>
         skos:Concept ;
     rdfs:label "1603:16:659:1:8" ;
     skos:prefLabel "Saint Mary Cayon"@eng-Latn ;
-    wdata:q7200235 "KN08" ;
 .
 
 <urn:mdciii:1603:16:659:1:9>
@@ -161,6 +147,5 @@ PREFIX wdata: <http://www.wikidata.org/wiki/Special:EntityData/>
         skos:Concept ;
     rdfs:label "1603:16:659:1:9" ;
     skos:prefLabel "Saint Paul Capisterre"@eng-Latn ;
-    wdata:q7200235 "KN09" ;
 .
 
